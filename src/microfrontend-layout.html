@@ -1,0 +1,124 @@
+<single-spa-router>
+  <head>
+
+  </head>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+    
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+  
+
+  <style>
+    ::-webkit-scrollbar {
+  height: 8px; /* Altura de la barra */
+}
+
+/* Estilo del riel de la barra de desplazamiento horizontal */
+::-webkit-scrollbar-track {
+  background-color: #3d5dbd00; /* Color de fondo del riel */
+}
+
+/* Estilo del pulgar de la barra de desplazamiento horizontal */
+::-webkit-scrollbar-thumb {
+  background-color: #b0c4db; /* Color del pulgar */
+  border-radius: 5px; /* Radio de borde del pulgar */
+}
+
+/* Estilo del pulgar de la barra de desplazamiento horizontal al pasar el cursor sobre él */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color del pulgar al pasar el cursor */
+}
+ .container{
+  display: flex;
+  
+ }
+ .principal{
+  width: 60%;
+  overflow: hidden;
+  flex-direction: column;
+ }
+
+ .colLeft{
+  width: 20%;
+ }
+
+
+ .columDer{
+  background-color: rgb(127, 172, 255);
+  width: 20%;
+  height: 100vh;
+  /* overflow: hidden; */
+
+ }
+ .traductor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+
+ }
+ .appDerq{
+  height: 80%;
+  background-color: antiquewhite;
+  overflow: hidden;
+ }
+ 
+ .footer{
+  width: 100vw;
+ }
+ 
+
+  </style>
+<route exact path="/">
+<section>
+  <application name="@mf-qnewsapp/mf-inicio" ></application>
+</section>
+</route>
+
+<route path="/content">
+
+
+  <section class="container ">
+    <div class="colLeft">
+      <application name="@mf-qnewsapp/team-mf-currency" props="myProps" ></application>
+    </div>
+    <main class="principal">
+        <div class="noticias">
+          <application name="@mf-qnewsapp/mf-main" props="myPropsNews" ></application>
+        </div>
+
+      
+    </main>
+    <div class="columDer">
+      <div class="traductor">traductor</div>
+    
+        <div class="appDerq" >  
+          <application name="@mf-qnewsapp/mf-columDer" props="myPropsNews"></application>
+        </div>
+     
+    </div>
+    
+  </section>
+</route>
+  
+  
+  
+
+
+  
+
+</single-spa-router>
