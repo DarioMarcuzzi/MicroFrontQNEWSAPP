@@ -40,6 +40,3 @@ Recuerde que cada repositorio funciona de forma independiente y tiene un puerto 
 
 
 
-## Uso
-
-
