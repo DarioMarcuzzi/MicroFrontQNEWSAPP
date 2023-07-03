@@ -7,7 +7,6 @@ MicroFrontQNEWSAPP es una aplicación contenedora y orquestadora de cuatro micro
 ## Descripción
 El propósito de esta aplicación es proporcionar una experiencia personalizada de noticias mediante el análisis de hilos de Twitter. En el mundo acelerado de hoy, Twitter sirve como un centro de información en tiempo real para una amplia gama de temas. Esta aplicación aprovecha su tecnología para obtener tweets relevantes de diversas fuentes autorizadas, como ministerios gubernamentales y organizaciones de salud. De esta manera, trae las últimas noticias y actualizaciones antes que los medios de noticias tradicionales, ofreciendo a los usuarios una experiencia interactiva similar a la de un periódico.
 
-Visión general
 Esta aplicación sigue una arquitectura de micro frontends, compuesta por cuatro microaplicaciones separadas que trabajan en conjunto. Cada microaplicación está construida con ReactJS y Single-SPA. Los backends de estas microaplicaciones se crean utilizando NodeJS y utilizan una base de datos PostgreSQL para el almacenamiento de datos.
 
 ## Repositorios Relacionados
