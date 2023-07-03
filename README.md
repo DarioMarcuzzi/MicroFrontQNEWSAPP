@@ -25,10 +25,9 @@ Esta aplicación se compone de varias micro aplicaciones. A continuación, se en
 
 ## Instalación
 
-Aquí debes proporcionar instrucciones detalladas sobre cómo instalar y configurar la aplicación raíz y las micro aplicaciones relacionadas. Esto puede incluir los comandos necesarios para clonar los repositorios, instalar las dependencias, configurar variables de entorno, etc.
+
 
 
 ## Uso
 
-Explica cómo utilizar la aplicación raíz y las micro aplicaciones relacionadas. Proporciona ejemplos de comandos o configuraciones específicas que los usuarios puedan necesitar para ejecutar la aplicación correctamente.
 
