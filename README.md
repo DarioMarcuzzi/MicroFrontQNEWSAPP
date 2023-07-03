@@ -16,12 +16,12 @@ Estructura de los repositorios
 
 Esta aplicación se compone de varias micro aplicaciones. A continuación, se enumeran los repositorios relacionados que puedes descargar e instalar por separado:
 
-1. [mf-inicio](https://github.com/DarioMarcuzzi/mf-inicio): En este repositorio podra encontrar la micro aplicacion encargada del login y registro de los usuarios.
-2. [mf-main](https://github.com/DarioMarcuzzi/mf-main): En este repositorio podra encontrar el contenido principal de la pag, tambien un buscador por palabra clave y unos filtros sobre las categorias de las noticias.
-3. [mf-Currency](https://github.com/DarioMarcuzzi/mf-Currency): En este repositorio encontrara la seccion de la pag ubicada en la esquina superior izquierda, donde se indica el cambio actual de las monedas mas influyentes en el mercado, asi como una actualizacion diaria y dispareidad sobre el dia a dia.
-4. [mf-columDer](https://github.com/DarioMarcuzzi/mf-columDer): En este repositorio encontrara la seccion de la parte inferior derecha de su pantalla, alli visualizara las organizaciones de donde se saca la informacion para las noticias, tambien con un filtro aplicable por cada organizacion y sus noticias.
-5. [backCurrency](https://github.com/DarioMarcuzzi/backCurrency): Este repositorio es el servidor de microfront Currency, encargado de hacer llamadas a una api externa dia a dia para traer informacion sobre las monedas mas relevantes del mercado y comunicarce con una base de datos local asi guardar la informacion.
-6. [backNews](https://github.com/DarioMarcuzzi/backNews): Este repositorio es el servidor de las noticias. Encargado de buscar informacion en twitter, formatearla guardarla en una base de datos, luego comunicarse con una IA para formar las noticias y guardarlas nuevamente en una base de datos.
+1. [mf-inicio](https://github.com/DarioMarcuzzi/mf-inicio): En este repositorio podrás encontrar la microaplicación encargada del inicio de sesión y registro de usuarios.
+2. [mf-main](https://github.com/DarioMarcuzzi/mf-main): En este repositorio podrás encontrar el contenido principal de la página, así como un buscador por palabra clave y filtros para las categorías de noticias.
+3. [mf-Currency](https://github.com/DarioMarcuzzi/mf-Currency): En este repositorio encontrarás la sección ubicada en la esquina superior izquierda de la página, donde se muestra la información actualizada sobre el cambio de las monedas más influyentes en el mercado.
+4. [mf-columDer](https://github.com/DarioMarcuzzi/mf-columDer):  En este repositorio encontrarás la sección ubicada en la parte inferior derecha de la pantalla, donde se visualizan las organizaciones de donde se obtiene la información para las noticias, con la opción de aplicar filtros por cada organización y sus noticias.
+5. [backCurrency](https://github.com/DarioMarcuzzi/backCurrency):Este repositorio es el servidor de la microaplicación Currency, encargado de realizar llamadas a una API externa para obtener información actualizada sobre las principales monedas del mercado, así como de comunicarse con una base de datos local para almacenar la información.
+6. [backNews](https://github.com/DarioMarcuzzi/backNews): Este repositorio es el servidor de la microaplicación de noticias, encargado de buscar información en Twitter, formatearla, almacenarla en una base de datos, interactuar con una IA para generar noticias y guardarlas nuevamente en una base de datos.
 
 ## Instalación
 
