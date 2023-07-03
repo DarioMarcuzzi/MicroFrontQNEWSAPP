@@ -23,6 +23,16 @@ Esta aplicación se compone de varias micro aplicaciones. A continuación, se en
 
 ## Instalación
 
+paso 1: 
+Descargar o clonar este repositorio en su computadora, guardarlo en una carpeta. 
+paso 2:
+Al igual que hizo con este repositorio debera repetir el paso 1 con los 6 repositorios que se nombran en este archivo ReadMe.(seguir el ReadMe de cada repositorio antes de seguir al paso 3)
+paso 3:
+Una vez descargados los repositorios y inicializados asegurece de estar en la carpeta correcta (./MicroFrontQNEWSAPP) y haga un NPM i y luego un npm start. 
+
+Recuerde que cada repositorio funciona por separado y cada uno tiene un puerto espesifico. Si por casualidad tiene un puerto en ejecucion en su maquina y hace conflicto con alguno de los puertos de alguna micro app. Lo que debera hacer es cambiar el puerto de ejecucion de la micro app en cuestion y dirigirse a ./src/index.ejs en este repositorio y cambiar al puerto correspondiente. 
+
+![image](https://github.com/DarioMarcuzzi/MicroFrontQNEWSAPP/assets/97201734/106453c5-f2fd-4890-a85a-fbc5b382be99)
 
 
 
