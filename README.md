@@ -10,8 +10,6 @@ El propósito de esta aplicación es proporcionar una experiencia personalizada 
 Visión general
 Esta aplicación sigue una arquitectura de micro frontends, compuesta por cuatro microaplicaciones separadas que trabajan en conjunto. Cada microaplicación está construida con ReactJS y Single-SPA. Los backends de estas microaplicaciones se crean utilizando NodeJS y utilizan una base de datos PostgreSQL para el almacenamiento de datos.
 
-Estructura de los repositorios
-
 ## Repositorios Relacionados
 
 Esta aplicación se compone de varias micro aplicaciones. A continuación, se enumeran los repositorios relacionados que puedes descargar e instalar por separado:
