@@ -35,7 +35,7 @@ Paso 3:
 
 Una vez que los repositorios estén descargados e inicializados, asegúrese de estar en la carpeta correcta (./MicroFrontQNEWSAPP) y ejecute "npm i" y luego "npm start".
 
-Recuerde que cada repositorio funciona de forma independiente y tiene un puerto específico. Si por casualidad tiene un puerto en ejecución en su máquina y hay un conflicto con alguno de los puertos de alguna microaplicación, deberá cambiar el puerto de ejecución de la microaplicación en cuestión. Además, vaya al archivo "./src/index.ejs" de este repositorio y actualice el puerto correspondiente.
+Recuerde que cada repositorio funciona de forma independiente y tiene un puerto específico. Si por casualidad tiene un puerto en ejecución en su ordenador y hay un conflicto con alguno de los puertos de alguna microaplicación, deberá cambiar el puerto de ejecución de la microaplicación en cuestión. Además, vaya al archivo "./src/index.ejs" de este repositorio y actualice la subcripcion de la aplicacion a el puerto correspondiente.
 
 ![image](https://github.com/DarioMarcuzzi/MicroFrontQNEWSAPP/assets/97201734/106453c5-f2fd-4890-a85a-fbc5b382be99)
 
