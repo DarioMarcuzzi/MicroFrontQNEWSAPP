@@ -23,15 +23,15 @@ Esta aplicación se compone de varias micro aplicaciones. A continuación, se en
 
 ## Instalación
 
-Paso 1:
+<strong>Paso 1:</strong>
 
 Descargar o clonar este repositorio en su computadora y guardarlo en una carpeta.
 
-Paso 2:
+<strong>Paso 2:</strong>
 
 Repetir el Paso 1 con los 6 repositorios mencionados en este archivo ReadMe. Asegúrese de seguir el ReadMe de cada repositorio antes de continuar con el Paso 3.
 
-Paso 3:
+<strong>Paso 3:</strong>
 
 Una vez que los repositorios estén descargados e inicializados, asegúrese de estar en la carpeta correcta (./MicroFrontQNEWSAPP) y ejecute "npm i" y luego "npm start".
 
