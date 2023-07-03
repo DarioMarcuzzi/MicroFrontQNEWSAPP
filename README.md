@@ -2,9 +2,9 @@
 
 MicroFrontQNEWSAPP es una aplicación contenedora y orquestadora de cuatro microaplicaciones. Utiliza la potencia de Single-SPA (https://single-spa.js.org/) y ReactJS para crear una integración fluida de estas microaplicaciones.
 
-Descripción
 ![image](https://github.com/DarioMarcuzzi/MicroFrontQNEWSAPP/assets/97201734/96812646-7892-412f-9486-379d6330e9b6)
 
+## Descripción
 El propósito de esta aplicación es proporcionar una experiencia personalizada de noticias mediante la agregación y análisis de hilos de Twitter. En el mundo acelerado de hoy, Twitter sirve como un centro de información en tiempo real para una amplia gama de temas. Esta aplicación aprovecha su tecnología para obtener tweets relevantes de diversas fuentes autorizadas, como ministerios gubernamentales y organizaciones de salud. De esta manera, trae las últimas noticias y actualizaciones antes que los medios de noticias tradicionales, ofreciendo a los usuarios una experiencia interactiva similar a la de un periódico.
 
 Visión general
